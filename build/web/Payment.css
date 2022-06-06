@@ -1,0 +1,93 @@
+@import url("index.css");
+@import url("Contact us.css");
+
+#image-2 img{
+    height: 5%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#sub-container{
+    margin-top: 2%;
+}
+.icon-container img{
+    display: inline-block;
+    width: 5%;
+    color: #2196F3;
+}
+.col-50 h3{
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #9b2a58;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container1 {
+  padding: 5px 20px 15px 20px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}

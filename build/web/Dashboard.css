@@ -1,0 +1,53 @@
+@import url("index.css");
+
+#Dashboard{
+    width: 70%;
+}
+#Dashboard h3{
+    color: #9b2a58;
+    margin-top: 0;
+}
+#ads-image img{
+    width: 85%;
+    height: 10%;
+    margin-left: 8%;
+    margin-top: 2.25%;
+    margin-bottom: 4%;
+}
+table{
+    margin-left: 2%;
+}
+#image-2 li{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: vardana;
+    background: #9b2a58;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    border: 1px solid #9b2a58;
+    border-radius: 5px;
+}
+#image-2 a{
+    text-decoration: none;
+}
+#logout-d{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: vardana;
+    background: #9b2a58;
+    color: white;
+    border: 1px solid #9b2a58;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ad-img-1{
+    
+}
+#list{
+    padding-bottom: 5%;
+}
+#container{
+    padding-bottom: 2%;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>clickSHOP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Dashboard.css">
+        <link rel="icon" type="image/jpg" href="e-logo.jpg">
+        <%
+            response.setHeader("Cache-Control", "no.cache, no-store, must-revalidate"); // HTTP 1.1
+            response.setHeader("Pragma", "no-cache");  // HTTP 1.0
+            response.setDateHeader("Expires", 0); // Proxies
+        %>
+    </head>
+    <body>
+        <div id="body">
+            <header>
+                <ul type="none">
+                    <%
+                        if(session.getAttribute("username")==null){
+                    %>
+                            <a href="index.jsp"><li>Home</li></a>
+                            <a href="About-us.jsp"><li>About us</li></a>
+                            <a href="Contact us.jsp"><li>Contact us</li></a>
+                            <a href="Login.jsp"><li>Customer Login</li></a>
+                    <%
+                        }else{
+                    %>     
+                            <li style="margin-left: 7.5%;">Welcome ${username}</li>
+                            <li>|</li>
+                            <form action="Logout">
+                                <li><input type="submit" value="Logout" id="logout"></li>
+                            </form>
+                    <%
+                        }
+                    %>
+                </ul>
+                <div style="clear: both;"></div>
+            </header>
+             <div id="name">
+                <h2>Online Shopping System</h2><br>
+                <p>Free delivery, great discounts, variety of product</p>
+            </div>
+            <div id="container">
+                <nav>
+                    <ul type='none'>
+                        <a href="index.jsp"><li>HOME</li></a>
+                        <a href="About-us.jsp"><li>ABOUT</li></a>
+                        <a href="Dashboard.jsp"><li>DASHBOARD</li></a>
+                        <a href="AllProduct.jsp"><li>
+                            <div class="dropdown">
+                                <button class="dropbtn">SHOPPING MORE</button>
+                                <div class="dropdown-content">
+                                    <a href="Pantry.jsp">Pantry</a>
+                                    <a href="Books.jsp">Books</a>
+                                    <a href="Computer.jsp">Computer & Accessories</a>
+                                </div>
+                            </div>
+                            </li></a>
+                        <%
+                            if(session.getAttribute("username")==null){
+                        %>  
+                            <a href="Login.jsp"><li>MY ORDERS</li></a>
+                        <%
+                            }else{
+                        %>
+                                <a href="Order.jsp"><li>MY ORDERS</li></a>
+                        <%
+                            }
+                        %>
+                                <%
+                            if(session.getAttribute("username")==null){
+                        %>  
+                                <a href="Login.jsp"><li>MY ACCOUNT</li></a>
+                        <%
+                            }else{
+                        %>
+                                <a href="Customer Account.jsp"><li>MY ACCOUNT</li></a>
+                        <%
+                            }
+                        %>
+                        <a href="Contact us.jsp"><li>CONTACT US</li></a>
+                    </ul>
+                    <div style="clear: both;"></div>
+                </nav>
+                <hr id="hr-1">
+                <table>
+                    <tr>
+                        <td id="Dashboard"  colspan="2">
+                            <h3>Welcome to Online Shopping System</h3><hr><br>
+                            <div id="image-2">
+                                <ul type="none">
+                                    <a href="index.jsp"><li>Home</li></a><br>
+                                    <a href="AllProduct.jsp"><li>Shopping More</li></a><br>
+                                    <a href="Order.jsp"><li>My order</li></a><br>
+                                    <a href="Customer Account.jsp"><li>My Account</li></a><br>
+                                    <%
+                                        if(session.getAttribute("username")==null){
+                                    %>
+                                            <a href="Login.jsp"><li>Login</li></a>
+                                    <%
+                                        }else{
+                                    %>     
+                                            <form action="Logout">
+                                                <li><input type="submit" value="Logout" id="logout-d"></li>
+                                            </form>
+                                    <%
+                                        }
+                                    %>
+                                </ul>
+                            </div> 
+                        </td>
+                        <td>
+                            <div id="ads-image">
+                                <img src="HP.jpg">
+                                <img src="LF.jpg">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <div id="footer">
+                <h2>copyright &copy; 2020</h2>
+            </div>
+        </footer>
+    </body>
+</html>

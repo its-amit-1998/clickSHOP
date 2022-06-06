@@ -1,0 +1,71 @@
+@import url("index.css");
+
+h3{
+    color: #9b2a58;
+    margin-left: 14.5%;
+    padding-top: 1.5%;
+}
+#hr-2{
+  width: 68.5%;
+  margin-left: 14.5%;
+}
+#image-2 img{
+    height: 5%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#sub-container{
+  background: white;
+  padding-left: 1.5%;
+  width: 70%;
+  margin-left: 13%;
+}
+form{
+    height: auto;
+}
+input[type=text], select{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #9b2a58;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]{
+  background-color: #9b2a58;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.required{
+  color: red;
+}
+#hr-2{
+  padding-left: 1.5%;
+}
+#logout{
+    padding-top: 0;
+}
+#container{
+  padding-bottom: 2%;
+}
+body{
+  padding-bottom: 2%;
+}
+table{
+    margin-left: 2%;
+}
+#footer{
+    padding-bottom: 5%;
+}
