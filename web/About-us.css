@@ -1,0 +1,18 @@
+@import url("index.css");
+
+.sub-container{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sub-container h3{
+    color: #9b2a58;
+}
+table{
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+td img{
+    width: 100%;
+    padding-right: 5%;
+}
