@@ -14,7 +14,7 @@ Here are some of my layout
 ![contact](https://user-images.githubusercontent.com/99385950/172767835-960be160-c840-4c6f-8945-b0b894cefe39.jpg)
 
 Database information
-![db-registration](https://user-images.githubusercontent.com/99385950/172767848-2663672b-6c83-4853-b826-a2f1849ba841.jpg)
+![db-registration](https://user-images.githubusercontent.com/99385950/172768325-cc7cbe4d-6bf3-4a2f-8d32-7ecc49fb3ac4.jpg)
 ![db-cart](https://user-images.githubusercontent.com/99385950/172767959-0c6cb7a3-3d78-4cd7-9f3a-cc822468ad6f.jpg)
 ![db-shipping](https://user-images.githubusercontent.com/99385950/172767976-bfc247e6-40a8-428c-8c92-303251f0f697.jpg)
 ![db-payment](https://user-images.githubusercontent.com/99385950/172767990-1cc330d9-4201-4454-a89c-c9ed5f2116fe.jpg)
